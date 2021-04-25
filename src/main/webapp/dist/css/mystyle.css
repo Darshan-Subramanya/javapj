@@ -1,0 +1,238 @@
+/* Button */
+.btn {
+	font-size: 18px;
+	display: inline-block;
+	padding: 10px 30px;
+	color: white;
+	border: 2px solid transparent;
+	border-radius: 30px;
+	background: transparent;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.btn:hover,
+.btn:focus {
+	color: white;
+}
+
+.btn.btn-blue {
+	background: #00a8ff;
+	margin-bottom: -1.25rem;
+}
+
+.btn.btn-blue:hover {
+	background: #31b9ff;
+}
+
+.btn.btn-blue-fill {
+	color: #00a8ff;
+	border-color: #00a8ff;
+	background: transparent;
+}
+
+.btn.btn-blue-fill:hover {
+	color: white;
+	background: #00a8ff;
+}
+
+.btn.btn-white-fill {
+	color: #fff;
+	border-color: #fff;
+	background: transparent;
+}
+
+.btn.btn-white-fill:hover {
+	color: #00a8ff;
+	background: #fff;
+}
+
+.btn.btn-gray-fill {
+	color: #fff;
+	border-color: #fff;
+	background: transparent;
+}
+
+.btn.btn-gray-fill:hover {
+	border-color: #bbb;
+	background: #bbb;
+}
+
+.btn.btn-submit {
+	width: 100%;
+	margin-top: 30px;
+	color: #fff;
+	border: 2px solid #fff;
+	background: #007bff;
+}
+
+.btn.btn-submit:focus {
+	font-weight: bold;
+}
+
+.btn.btn-submit:hover {
+	color: #fff;
+	background: #008080;
+}
+
+/* Form Control */
+.fom-div{
+	margin: 0 25%;
+}
+.fom-control {
+	width: 100%;
+	font-size: 18px;
+	position: relative;
+	left: 0;
+	height: auto;
+	padding: 20px 30px;
+	border: 1px;
+	border-radius: 0;
+	box-shadow: 0;
+}
+
+.fom-control.fom-white {
+	color: #000;
+	border: 2px solid #007bff;
+	background: transparent;
+	-webkit-transition: background-color 0.3s;
+	transition: background-color 0.3s;
+	margin-top: 20px;
+}
+
+.fom-control.fom-white::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #007bff;
+}
+
+.fom-control.fom-white:-moz-placeholder {
+	opacity: 1;
+	/* Mozilla Firefox 4 to 18 */
+	color: #007bff;
+}
+
+.fom-control.fom-white::-moz-placeholder {
+	opacity: 1;
+	/* Mozilla Firefox 19+ */
+	color: #007bff;
+}
+
+.fom-control.fom-white:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: #007bff;
+}
+
+.fom-control.fom-white:focus {
+	background: rgba(255,255,255,0.2);
+}
+
+
+/* Popup */
+.modal {
+	padding: 0 25px !important;
+}
+
+.modal-dialog {
+	width: 100%;
+	max-width: 560px;
+	margin: 0 auto;
+}
+
+.modal-popup {
+	position: relative;
+	padding: 45px 30px;
+	text-align: center;
+	background: url('../../img/popup.jpg');
+	box-shadow: none;
+	border-radius: 2px;
+}
+
+.modal-popup a.close-link {
+	font-size: 22px;
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	color: #fff;
+}
+
+.popup-form {
+	width: 90%;
+	max-width: 375px;
+	margin: 60px auto;
+}
+
+.popup-form .form-control {
+	margin: 20px 0;
+}
+
+.popup-form .form-control.dropdown {
+	text-align: left;
+}
+
+.popup-form .form-control.dropdown:after {
+	content: '\f0d7';
+	font-family: 'FontAwesome';
+	display: inline-block;
+	float: right;
+	color: white;
+}
+
+.popup-form .dropdown .dropdown-menu {
+	top: 65px;
+	width: 100%;
+	padding: 0;
+	border: 2px solid white;
+	border-top: 0;
+	border-radius: 0;
+	background: white;
+	box-shadow: none;
+}
+
+.popup-form .dropdown .dropdown-menu li {
+	font-size: 16px;
+	width: 100%;
+	background: transparent;
+}
+
+.popup-form .dropdown .dropdown-menu li a {
+	width: 100%;
+	padding: 15px 30px;
+	color: #00a8ff;
+}
+
+.popup-form .dropdown .dropdown-menu li:hover a {
+	color: #fff;
+	background: #00a8ff;
+}
+
+/* Colors */
+
+.white {
+	color: white;
+}
+
+.light-white {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.white-bg {
+	background: white;
+}
+
+.gray-bg {
+	background: #f7f7f7;
+}
+
+.blue {
+	color: #00a8ff;
+}
+
+.blue-bg {
+	background: #00a8ff;
+}
+
+/*message*/
+.err-msg{
+	text-align: center;
+	color: red;
+}
